@@ -100,9 +100,6 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		//Invocador x = new Invocador(new CAumentar(new Ventilador()));
-		//x.ejecutarCommando();
-		
 		menu();
 		
 	}
