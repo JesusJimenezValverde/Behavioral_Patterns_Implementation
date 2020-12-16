@@ -56,7 +56,7 @@ public class main {
 			//////////////////////////////////////////////////////////////////////////////////
 			
 			System.out.println("****************************************************************");
-			System.out.println("Seleccione la operacion que desea realizar:");
+			System.out.println("Seleccione el objeto que desea realizar:");
 			System.out.println("1. Aire Acondicionado");
 			System.out.println("2. Ventilador");
 			System.out.println("3. Puerta del garaje");

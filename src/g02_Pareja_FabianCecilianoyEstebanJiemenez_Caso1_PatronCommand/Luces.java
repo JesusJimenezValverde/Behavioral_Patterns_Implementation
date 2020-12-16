@@ -14,12 +14,12 @@ public class Luces extends Receiver{
 
 	@Override
 	public void abrir() {
-		System.out.println("La intensidad de las luces no puede abrirse");
+		System.out.println("Las luces no pueden abrirse");
 	}
 
 	@Override
 	public void cerrar() {
-		System.out.println("La intensidad de las luces no puede cerrarse");
+		System.out.println("Las luces no puede cerrarse");
 	}
 
 	@Override
