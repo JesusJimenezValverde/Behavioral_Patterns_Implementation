@@ -9,7 +9,7 @@ public class main {
 		Scanner myObj = new Scanner(System.in);  
 		int opcionComando = 0;  
 		int opcionObjeto = 0;
-		Invocador x = new Invocador();
+		Invocador invoker = new Invocador();
 		
 		do {
 			System.out.println("****************************************************************");
@@ -31,22 +31,22 @@ public class main {
 			
 			switch(opcionComando) {
 			case 1:
-				x.setComando(new CAbrir());
+				invoker.setComando(new CAbrir());
 				break;
 			case 2:
-				x.setComando(new CCerrar());
+				invoker.setComando(new CCerrar());
 				break;
 			case 3:
-				x.setComando(new CAumentar());
+				invoker.setComando(new CAumentar());
 				break;
 			case 4:
-				x.setComando(new CDisminuir());
+				invoker.setComando(new CDisminuir());
 				break;
 			case 5:
-				x.setComando(new CEncender());
+				invoker.setComando(new CEncender());
 				break;
 			case 6:
-				x.setComando(new CApagar());
+				invoker.setComando(new CApagar());
 				break;
 			default:
 				System.out.println("Opcion incorrecta!!");
@@ -73,26 +73,26 @@ public class main {
 			
 			switch(opcionObjeto) {
 			case 1:
-				x.setReceiver(new AC());
+				invoker.setReceiver(new AC());
 				break;
 			case 2:
-				x.setReceiver(new Ventilador());
+				invoker.setReceiver(new Ventilador());
 				break;
 			case 3:
-				x.setReceiver(new Garage());
+				invoker.setReceiver(new Garage());
 				break;
 			case 4:
-				x.setReceiver(new Luces());
+				invoker.setReceiver(new Luces());
 				break;
 			case 5:
-				x.setReceiver(new Parlante());
+				invoker.setReceiver(new Parlante());
 				break;
 			default:
 				System.out.println("Opcion incorrecta!!");
 				continue;
 			}
 			
-			x.ejecutarCommando();
+			invoker.ejecutarCommando();
 			
 		}while(true);
 		
