@@ -1,13 +1,13 @@
-package gn2_Pareja_FabianCecilianoyEstebanJiemenez_Caso1_PatronCommand;
+package g02_Pareja_FabianCecilianoyEstebanJiemenez_Caso1_PatronCommand;
 
 abstract class Receiver{
     public String estado;
 
-    public abstract aumentar();
-    public abstract disminuir();
-    public abstract abrir();
-    public abstract cerrar();
-    public abstract encender();
-    public abstract apagar();
+    public abstract void aumentar();
+    public abstract void disminuir();
+    public abstract void abrir();
+    public abstract void cerrar();
+    public abstract void encender();
+    public abstract void apagar();
 
 }
